@@ -98,7 +98,13 @@ body {
 }
 
 /* Media queries */
-
+@media (max-width: 992px) {
+    .hero-txt-style {
+        font-size: 2rem;
+        font-weight: 600;
+        padding-left: 2rem;
+    }
+}
 @media (max-width: 575px) {
     .logo-img {
         width: 58%;
@@ -111,8 +117,8 @@ body {
         margin-right: 1rem;
     }
     .hero-txt-style {
-        font-size: 2rem;
+        font-size: 1.75rem;
         font-weight: 600;
-        padding-left: 2rem;
+        padding-left: 0.25rem;
     }
 }
