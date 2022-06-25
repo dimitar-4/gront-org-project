@@ -41,6 +41,23 @@ body {
     box-shadow: inset 8rem 0 0 0 #239b23;
 }
 
+/* To top button */
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 2rem;
+    z-index: 99;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    color: #f7f6f0;
+    background-color: #239b23;
+    border: 0.125rem solid #f7f6f0;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+  }
+
 /* Breakers/Spacers */
 .icon-br {
     color: #239b23;
