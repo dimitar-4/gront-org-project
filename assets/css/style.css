@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:wght@300;400;700;900&display=swap');
 
 html {
-    scroll-padding: 100px;
+    scroll-padding: 6rem;
 }
 
 body {
@@ -61,6 +61,7 @@ body {
   }
   #toTop:hover {
     color: #f7f6f0;
+    border-color: #f7f6f0;
     box-shadow: inset 0 0 4rem 0 #239b23;
   }
 
@@ -183,6 +184,17 @@ body {
 }
 .about-img {
     width: -webkit-fill-available;
+}
+
+/* Media Content */
+.yt-video {
+    width: 100%;
+    height: 20rem;
+}
+.media-img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
 }
 
 /* Media queries */
