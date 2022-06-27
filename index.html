@@ -46,6 +46,7 @@
             </div>
         </nav>
 
+        <!-- Hero Image & Title Card -->
         <div class="row mx-auto">
             <img src="assets/media/images/hero-bg.png" alt="hero-image" class="hero-bg-img">
             <div class="col-12 col-md-10 offset-md-1">
@@ -69,6 +70,7 @@
             </div>
         </div>
 
+        <!-- Home Page Inner Navbar -->
         <div class="row mx-auto green-bg py-1">
             <div class="col-6 col-md-3 text-center py-2">
                 <a href="#about" class="home-nav-links rounded">About</a>
@@ -352,6 +354,91 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="warm-bg">
+        <div class="row mx-auto">
+            <div class="text-center mt-3">
+                <i class="fa-solid fa-seedling icon-br warm-bg"></i>
+            </div>
+        </div>
+
+        <div class="row mx-auto py-3">
+            <div class="col-12 col-md-6 col-lg-4 my-auto">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="https://www.facebook.com/gront.org" target="_blank" class="fs-3 m-1 soc-media-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/gr%C3%B6nt/about/?viewAsMember=true" target="_blank" class="fs-3 m-1 soc-media-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCEndVaj7e3hnHBJ1JMgGllQ" target="_blank" class="fs-3 m-1 soc-media-link">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gront_org/" target="_blank" class="fs-3 m-1 soc-media-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://medium.com/@GRONT.ORG" target="_blank" class="fs-3 m-1 soc-media-link">
+                        <i class="fa-solid fa-m"></i>
+                    </a>
+                    <a href="https://twitter.com/gront_org" target="_blank" class="fs-3 m-1 soc-media-link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 my-auto text-center">
+                <!-- The form code is copied directly from the original website -->
+                <form name="newsSubscribe" id="newsSubscribe" novalidate="novalidate">
+                    <p class="mb-2 fs-5">Join to become a GRÖNT insider.</p>
+                    <div class="form-group">
+                        <input type="text" class="form-control my-2 w-75 mx-auto" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control my-2 w-75 mx-auto" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <select id="description" name="description" class="form-control my-2 w-75 mx-auto">
+                            <option value="">What describes you best?</option>
+                            <option value="CEA Farm Operator">CEA Farm Operator</option>
+                            <option value="Non-CEA Farm Operato">Non-CEA Farm Operator</option>
+                            <option value="Produce Distributer">Produce Distributer</option>
+                            <option value="Equipment Supplier">Equipment Supplier</option>
+                            <option value="Food Safety">Food Safety</option>
+                            <option value="Investor/ Investor Advisor">Investor/ Investor Advisor</option>
+                            <option value="Architect/ Construction">Architect/ Construction</option>
+                            <option value="Real Estate Developer">Real Estate Developer</option>
+                            <option value="Government/ Policy">Government/ Policy</option>
+                            <option value="Media">Media</option>
+                            <option value="Researcher">Researcher</option>
+                            <option value="Concerned citizen">Concerned citizen</option>
+                            <option value="Student">Student</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <p>
+                        <input type="submit" class="btn btn-main green-color warm-bg my-2" value="GO GRÖNT" id="subscribe">
+                    </p>
+                    <div id="subscribeResponse" style="display:none;margin-top:5px; color: green;"></div>
+                    <p></p>
+                    <p>
+            
+                    </p>
+                </form>
+            </div>
+
+            <div class="col-12 col-lg-4 text-center my-auto">
+                <img src="assets/media/logo/GrontLogo.png" alt="Logo">
+            </div>
+        </div>
+        <div class="row mx-auto green-bg text-center">
+            <p class="fs-5 my-auto py-2 text-light">
+                © GRÖNT
+                <i class="fa-solid fa-seedling"></i>
+                <span id="year"></span>
+            </p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
