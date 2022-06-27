@@ -29,6 +29,11 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
+/* Images in Different Info Sections */
+.section-info-img {
+    width: -webkit-fill-available;
+}
+
 /* Buttons */
 .btn-main {
     color: #239b23;
@@ -181,9 +186,6 @@ body {
     letter-spacing: 0.125rem;
     padding-left: 1rem;
     border-left: 0.25rem solid #239b23;
-}
-.about-img {
-    width: -webkit-fill-available;
 }
 
 /* Media Content */
